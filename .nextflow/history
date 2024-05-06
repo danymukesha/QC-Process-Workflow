@@ -1,5 +1,0 @@
-2024-05-05 20:41:16	2.4s	determined_edison	OK	8aebea58ab01bfbdc94b498ee6280d42	446bfc68-5942-4e3d-b5de-88da66e0c425	nextflow run main.nf -ansi-log false
-2024-05-05 20:49:24	-	sleepy_saha	-	22d24a5137cd18bd55c6e3122ca0cd95	975b38e5-7903-4140-8425-a5d49b9dfe14	nextflow run main.nf -ansi-log false
-2024-05-05 20:50:04	1.7s	exotic_lamarck	OK	9b54de35055e6e092ad85ca6502806cb	2440c87e-bbb4-477f-b945-5647d939e642	nextflow run main.nf -ansi-log false
-2024-05-05 20:50:37	1.9s	intergalactic_tesla	OK	9b54de35055e6e092ad85ca6502806cb	fb3cb30b-a9e6-4fb1-85de-4aca8d10924c	nextflow run main.nf
-2024-05-06 10:20:18	2s	drunk_pauling	OK	9b54de35055e6e092ad85ca6502806cb	007358ce-e9a8-4a4e-99d2-5017bbf8c0da	nextflow run main.nf
