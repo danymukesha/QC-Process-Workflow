@@ -1,0 +1,23 @@
+module_order:
+    - fastqc:
+        name: 'FastQC (raw)'
+        anchor: 'fastqc-raw'
+        target: 'FastQC'
+        path_filters_exclude:
+            - './logs/*.trimmed_fastqc.zip'
+    - sickle
+    - fastqc:
+        name: 'FastQC (trimmed)'
+        anchor: 'fastqc-trimmed'
+        target: 'FastQC'
+        path_filters:
+            - './logs/*.trimmed_fastqc.zip'
+
+run_modules:
+    - fastqc
+    - sickle
+
+plots_force_interactive: True
+
+show_analysis_time: False
+show_analysis_paths: False
